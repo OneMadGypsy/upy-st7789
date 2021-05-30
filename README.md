@@ -1,7 +1,7 @@
 # upy-st7789
 
 
-A simple st7789 driver written in micropython. This repo is still under development. The code works, but is limited in features.
+A simple st7789 driver for 240x240 pixel IPS displays, written in micropython. The code should be compatible with any micropython device. This repo is still under development. The code works, but is limited in features. 
 
 ### Community:
 
@@ -33,4 +33,4 @@ _To discus features, bugs or share your own project that utilize code in this re
 **baud**   | int        | desired baudrate                 | 31_250_000
 **bright** | int        | brightness value (0 to 255)      | 255
 **rot**    | int        | rotation value (0, 90, 180, 270) | 0
-**buff**   | memoryview | to be used as internal buffer   | None
+**buff**   | memoryview | to be used as internal buffer    | None
