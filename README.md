@@ -38,9 +38,9 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.display_en(`enable`)**
- Arg       | Type  | Description                      | Default
------------|-------|----------------------------------|--------------
-**enable** | bool  | enable/disable display      | True
+ Arg       | Type  | Description                          | Default
+-----------|-------|--------------------------------------|--------------
+**enable** | bool  | enable/disable display         | True
 
 <br />
 
