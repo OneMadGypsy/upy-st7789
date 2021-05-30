@@ -35,7 +35,7 @@ _To discus features, bugs or share your own project that utilize code in this re
 
 
 **ST7789(`spi`, `dc`, `cs`, `rst`, `bl`, `te`, `baud`, `bright`, `rot`, `buff`)**
-> Main ST7789 interface. It is only necessary to provide a buffer if you intend to keep a persistent buffer around to write to. In which case, it should be as follows: `memoryview(bytearray(115200))`. Rotation starts with the display's ribbon at the bottom of the display (0), and the display gets turned to the right once for every 90 degrees of rotation you designate in `rot`. This may not be to manufacturer's specs, but it is how it is with this driver. Youo can define `rot` with negative degrees and it will be converted in the `rotation` method (ex: -90 converts to 270).
+> Main ST7789 interface. It is only necessary to provide a buffer if you intend to keep a persistent buffer around to write to. In which case, it should be as follows: `memoryview(bytearray(115200))`. Rotation starts with the display's ribbon at the bottom of the display (0), and the display gets turned to the right once for every 90 degrees of rotation you designate in `rot`. This may not be to manufacturer's specs, but it is how it is with this driver. You can define `rot` with negative degrees and it will be converted in the `rotation` method (ex: -90 converts to 270).
 
  Arg       | Type       | Description                      | Default
 -----------|------------|----------------------------------|--------------
