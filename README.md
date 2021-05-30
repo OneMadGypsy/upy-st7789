@@ -40,7 +40,7 @@ _To discus features, bugs or share your own project that utilize code in this re
 **.display_en(`enable`)**
  Arg       | Type  | Description                      | Default
 -----------|-------|----------------------------------|--------------
-**enable** | bool  | enable/disable display ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎| True
+**enable** | bool  | enable/disable display      | True
 
 <br />
 
