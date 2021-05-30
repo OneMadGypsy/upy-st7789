@@ -34,3 +34,27 @@ _To discus features, bugs or share your own project that utilize code in this re
 **bright** | int        | brightness value (0 to 255)      | 255
 **rot**    | int        | rotation value (0, 90, 180, 270) | 0
 **buff**   | memoryview | to be used as internal buffer    | None
+
+<br />
+
+**.display_en(`enable`)**
+ Arg       | Type  | Description                      | Default
+-----------|-------|----------------------------------|--------------
+**enable** | bool  | enable|disable display           | True
+
+<br />
+
+**.sleep_en(`enable`)**
+ Arg       | Type  | Description                      | Default
+-----------|-------|----------------------------------|--------------
+**enable** | bool  | sleep on|sleep off               | True
+
+<br />
+
+**.tear_en(`enable`)**
+ Arg       | Type  | Description                      | Default
+-----------|-------|----------------------------------|--------------
+**enable** | bool  | enable|disable tearing pin       | True
+
+<br />
+
