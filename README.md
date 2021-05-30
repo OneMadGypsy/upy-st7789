@@ -38,6 +38,7 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.display_en(`enable`)**
+
  Arg       | Type  | Description                          | Default
 -----------|-------|--------------------------------------|--------------
 **enable** | bool  | enable/disable display         | True
@@ -45,6 +46,7 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.sleep_en(`enable`)**
+
  Arg       | Type  | Description                                         | Default
 -----------|-------|-----------------------------------------------------|--------------
 **enable** | bool  | sleep on/sleep off                          | True
@@ -52,6 +54,8 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.tear_en(`enable`)**
+>only operable if a tearing pin is defined
+
  Arg       | Type  | Description                                  | Default
 -----------|-------|----------------------------------------------|--------------
 **enable** | bool  | enable/disable tearing pin               | True
@@ -59,6 +63,7 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.rotation(`rot`)**
+
  Arg       | Type  | Description                                  | Default
 -----------|-------|----------------------------------------------|--------------
 **rot**    | int   | rotation value (0, 90, 180, 270)        | 0
@@ -66,6 +71,8 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.reset(`wait`)**
+>only operable if a reset pin is defined
+
  Arg       | Type  | Description                                 | Default
 -----------|-------|---------------------------------------------|--------------
 **wait**   | int   | ms to wait between toggling display      | 10
@@ -73,6 +80,8 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.backlight(`bright`)**
+>only operable if a backlight pin is defined
+
  Arg       | Type  | Description                              | Default
 -----------|-------|------------------------------------------|--------------
 **bright** | int   | brightness value (0 to 255)        | 255
