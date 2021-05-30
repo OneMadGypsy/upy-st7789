@@ -85,3 +85,14 @@ _To discus features, bugs or share your own project that utilize code in this re
  Arg       | Type  | Description                              | Default
 -----------|-------|------------------------------------------|--------------
 **bright** | int   | brightness value (0 to 255)        | 255
+
+<br />
+
+**.clear_buff(`col`)**
+>only operable if a buffer was supplied to the constructor
+
+ Arg       | Type  | Description                                  | Default
+-----------|-------|----------------------------------------------|--------------
+**col**    | int   | color to fill thee buffer with         | **REQUIRED**
+
+
