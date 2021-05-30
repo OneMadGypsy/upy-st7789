@@ -15,6 +15,22 @@ _To discus features, bugs or share your own project that utilize code in this re
 
 <br />
 
+## Ports:
+
+### st7789.py
+>This can be uploaded directly to the board, but is intended to be used as a frozen module. For information regarding how to setup the sdk and freeze a module you can refer to [this post](https://www.raspberrypi.org/forums/viewtopic.php?f=146&t=306449#p1862108) on the Raspberry Pi forum.
+
+
+### st7789.mpy
+>This is a cross-compiled version of `st7789.py`. It is intended to be uploaded to your board as you would any normal `.py` script.
+
+
+<br />
+
+-------
+
+<br />
+
 ## Docs:
 
 
