@@ -114,7 +114,7 @@ class ST7789(object):
         
     #__> SET BACKLIGHT BRIGHTNESS
     #_      @param bright:int - 0 to 255
-    def backlight(self, bright:int) -> None:
+    def backlight(self, bright:int=255) -> None:
         if isinstance(self.__bl, PWM):
             self.__bl.duty_u16(int(((min(bright, 255) / 255) ** 2.8) * 65534))
        
@@ -148,7 +148,7 @@ class ST7789(object):
     #__> FILL DISPLAY RAM WITH REQUESTED COLOR
     #_      @param col:int  - 16 bit color to fill display ram with
     #_      @param rows:int - amount of rows to fill on each iteration
-    def clear(self, col:int, rows:int=8):
+    def clear(self, col:int=0, rows:int=8):
         bulk = max(bulk, 1)
         col  = col.to_bytes(2, 'big')
         mv   = memoryview(bytearray(col*(self.__width*rows)))
