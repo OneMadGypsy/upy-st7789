@@ -97,7 +97,7 @@ _To discus features, bugs or share your own project that utilize code in this re
 
 <br />
 
-**.update_buff(`col`)**
+**.update_buff()**
 >Only operable if a buffer was supplied to the constructor. This will update the display RAM with the contents of the internal buffer
 
 <br />
