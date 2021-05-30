@@ -36,6 +36,19 @@ _To discus features, bugs or share your own project that utilize code in this re
 
 <br />
 
+### Properties
+
+<br />
+
+**.buffer:memoryview**
+>Reference to the buffer that was supplied to the constructor or `None` if no buffer was supplied.
+
+<br />
+
+### Methods
+
+<br />
+
 **.display_en(`enable`)**
 
  Arg       | Type  | Description                          | Default
@@ -121,11 +134,6 @@ _To discus features, bugs or share your own project that utilize code in this re
 **y**    | int        | y location to begin the write           | **REQUIRED**
 **w**    | int        | width to write                          | **REQUIRED**
 **h**    | int        | height to write                         | **REQUIRED**
-
-<br />
-
-**.buffer:memoryview**
->Reference to the buffer that was supplied to the constructor or `None` if no buffer was supplied.
 
 <br />
 
