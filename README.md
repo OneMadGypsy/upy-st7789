@@ -91,8 +91,8 @@ _To discus features, bugs or share your own project that utilize code in this re
 **.clear_buff(`col`)**
 >only operable if a buffer was supplied to the constructor
 
- Arg       | Type  | Description                                  | Default
------------|-------|----------------------------------------------|--------------
-**col**    | int   | color to fill thee buffer with         | **REQUIRED**
+ Arg       | Type  | Description                                 | Default
+-----------|-------|---------------------------------------------|--------------
+**col**    | int   | color to fill the buffer with         | **REQUIRED**
 
 
