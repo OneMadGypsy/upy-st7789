@@ -103,10 +103,22 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.clear(`col`, `rows`)**
->Only operable if a buffer was supplied to the constructor
+>Clear the display
 
  Arg       | Type  | Description                                 | Default
 -----------|-------|---------------------------------------------|--------------
 **col**    | int   | color to fill the buffer with         | 0
 **rows**   | int   | amount of rows to write at a time      | 8
 
+<br />
+
+**.update(`buff`, `x`, `y`, `w`, `h`)**
+>update a designated portion of the display RAM with the contents of the supplied buffer
+
+ Arg     | Type       | Description                                 | Default
+---------|------------|---------------------------------------------|--------------
+**buff** | memoryview | the contents to write to the display RAM    | **REQUIRED**
+**x**    | int        | the x location to begin the write           | **REQUIRED**
+**y**    | int        | the y location to begin the write           | **REQUIRED**
+**w**    | int        | the width to write                          | **REQUIRED**
+**h**    | int        | the height to write                         | **REQUIRED**
