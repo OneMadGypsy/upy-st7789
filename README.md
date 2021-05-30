@@ -125,7 +125,7 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.buffer:memoryview**
->Reference to the buffer that was supplied to the constructor
+>Reference to the buffer that was supplied to the constructor or `None` if no buffer was supplied.
 
 <br />
 
