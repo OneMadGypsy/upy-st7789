@@ -215,3 +215,15 @@ while True:
     
     display.update_buff()
 ```
+
+<br />
+
+-------
+
+<br />
+
+## Tips
+
+Overclocking a Raspberry Pi Pico can make a big difference regarding the performance you experience. Unfortunately, without making a change to the pico sdk overclocking the Pico will actually result in worse performance. If you would like to make the changes to the sdk you can get the information in [this post](https://www.raspberrypi.org/forums/viewtopic.php?f=146&t=311664&p=1871443#p1865146). There are other posts earlier in that thread which give a lot of information regarding non-obvious behavior. To make a long story short: Let's assume you overclock your Pico, and let's assume you print the `SPI` instance, the `baudrate` that the `SPI` reports is a lie. It will probably tell you 62_500_000, but in reality it's more like 12_500_000. The link I posted fixes this, but you will have to make the changes and rebuild the firmware. If you don't want to do that or think you can't do that **do not overclock your pico while running ANY SPI device**.
+
+
