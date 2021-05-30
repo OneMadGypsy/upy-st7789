@@ -149,7 +149,7 @@ class ST7789(object):
     #_      @param col:int  - 16 bit color to fill display ram with
     #_      @param rows:int - amount of rows to fill on each iteration
     def clear(self, col:int=0, rows:int=8):
-        bulk = max(bulk, 1)
+        rows = max(rows, 1)
         col  = col.to_bytes(2, 'big')
         mv   = memoryview(bytearray(col*(self.__width*rows)))
         for r in range(self.__height//rows):
