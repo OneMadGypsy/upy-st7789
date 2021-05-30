@@ -52,9 +52,9 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.tear_en(`enable`)**
- Arg       | Type  | Description                         | Default
------------|-------|-------------------------------------|--------------
-**enable** | bool  | enable/disable tearing pin         | True
+ Arg       | Type  | Description                                  | Default
+-----------|-------|----------------------------------------------|--------------
+**enable** | bool  | enable/disable tearing pin              | True
 
 <br />
 
