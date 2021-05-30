@@ -66,13 +66,13 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.reset(`wait`)**
- Arg       | Type  | Description                                | Default
------------|-------|--------------------------------------------|--------------
-**wait**   | int   | ms to wait between toggling display     | 10
+ Arg       | Type  | Description                                 | Default
+-----------|-------|---------------------------------------------|--------------
+**wait**   | int   | ms to wait between toggling display      | 10
 
 <br />
 
 **.backlight(`bright`)**
- Arg       | Type  | Description                               | Default
------------|-------|-------------------------------------------|--------------
-**bright** | int   | brightness value (0 to 255)         | 255
+ Arg       | Type  | Description                              | Default
+-----------|-------|------------------------------------------|--------------
+**bright** | int   | brightness value (0 to 255)        | 255
