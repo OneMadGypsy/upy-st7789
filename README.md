@@ -105,8 +105,8 @@ _To discus features, bugs or share your own project that utilize code in this re
 **.clear(`col`, `rows`)**
 >Only operable if a buffer was supplied to the constructor
 
- Arg       | Type  | Description                                  | Default
------------|-------|----------------------------------------------|--------------
-**col**    | int   | color to fill the buffer with          | 0
-**rows**   | int   | amount of rows to write at a time       | 8
+ Arg       | Type  | Description                                 | Default
+-----------|-------|---------------------------------------------|--------------
+**col**    | int   | color to fill the buffer with         | 0
+**rows**   | int   | amount of rows to write at a time      | 8
 
