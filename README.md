@@ -59,9 +59,9 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.rotation(`rot`)**
- Arg       | Type  | Description                                   | Default
------------|-------|-----------------------------------------------|--------------
-**rot**    | int   | rotation value (0, 90, 180, 270)         | 0
+ Arg       | Type  | Description                                  | Default
+-----------|-------|----------------------------------------------|--------------
+**rot**    | int   | rotation value (0, 90, 180, 270)        | 0
 
 <br />
 
