@@ -95,4 +95,18 @@ _To discus features, bugs or share your own project that utilize code in this re
 -----------|-------|---------------------------------------------|--------------
 **col**    | int   | color to fill the buffer with         | **REQUIRED**
 
+<br />
+
+**.update_buff(`col`)**
+>Only operable if a buffer was supplied to the constructor. This will update the display RAM with the contents of the internal buffer
+
+<br />
+
+**.clear(`col`, `rows`)**
+>Only operable if a buffer was supplied to the constructor
+
+ Arg       | Type  | Description                                 | Default
+-----------|-------|---------------------------------------------|--------------
+**col**    | int   | color to fill the buffer with         | **REQUIRED**
+**rows**   | int   | amount of rows to write at a time      | 8
 
