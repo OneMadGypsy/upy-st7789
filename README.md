@@ -58,3 +58,21 @@ _To discus features, bugs or share your own project that utilize code in this re
 
 <br />
 
+**.rotation(`rot`)**
+ Arg       | Type  | Description                      | Default
+-----------|-------|----------------------------------|--------------
+**rot**    | int   | rotation value (0, 90, 180, 270) | 0
+
+<br />
+
+**.reset(`wait`)**
+ Arg       | Type  | Description                         | Default
+-----------|-------|-------------------------------------|--------------
+**wait**   | int   | ms to wait between toggling display | 10
+
+<br />
+
+**.backlight(`bright`)**
+ Arg       | Type  | Description                         | Default
+-----------|-------|-------------------------------------|--------------
+**bright** | int   | brightness value (0 to 255)         | 255
