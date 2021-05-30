@@ -1,7 +1,7 @@
 # upy-st7789
 
 
-A simple st7789 driver for 240x240 pixel IPS displays, written in micropython. The code should be compatible with any micropython device. This repo is still under development. The code works, but is limited in features. 
+A simple st7789 driver for 240x240 pixel IPS displays, written in micropython. This driver should be compatible with any micropython device. This repo is still under development. The driver works, but is limited in features. This driver should work with displays whether they have a `chip select` pin or not. Numerous decisions are made based on the pins that are supplied to the `ST7789` constructor.
 
 ### Community:
 
