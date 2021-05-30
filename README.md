@@ -232,6 +232,6 @@ while True:
 
 ## Tips
 
-Overclocking a Raspberry Pi Pico can make a big difference regarding the performance you experience with this driver. Unfortunately, without making a change to the `pico-sdk`, overclocking the Pico will actually result in worse performance. If you would like to make the changes to the sdk, you can get the information in [this post](https://www.raspberrypi.org/forums/viewtopic.php?f=146&t=311664&p=1871443#p1865146). There are other posts earlier in that thread which give a lot of information regarding non-obvious behavior. To make a long story short: if you aren't willing to make the changes and rebuild the firmware **do not overclock your pico while running ANY SPI device**. You **will** take a severe performance hit if you do.
+Overclocking a Raspberry Pi Pico can make a big difference regarding the performance you experience with any `SPI` device. Unfortunately, without making a change to the `pico-sdk`, overclocking the Pico will actually result in worse performance. If you would like to make the changes to the sdk, you can get the information in [this post](https://www.raspberrypi.org/forums/viewtopic.php?f=146&t=311664&p=1871443#p1865146). There are other posts earlier in that thread which give a lot of information regarding non-obvious behavior. To make a long story short: if you aren't willing to make the changes and rebuild the firmware **do not overclock your pico while running ANY SPI device**. You **will** take a severe performance hit if you do.
 
 
