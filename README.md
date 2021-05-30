@@ -36,7 +36,7 @@ _To discus features, bugs or share your own project that utilize code in this re
 
 <br />
 
-### Properties
+### Properties:
 
 <br />
 
@@ -45,7 +45,7 @@ _To discus features, bugs or share your own project that utilize code in this re
 
 <br />
 
-### Methods
+### Methods:
 
 <br />
 
