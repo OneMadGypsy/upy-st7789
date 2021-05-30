@@ -115,10 +115,10 @@ _To discus features, bugs or share your own project that utilize code in this re
 **.update(`buff`, `x`, `y`, `w`, `h`)**
 >update a designated portion of the display RAM with the contents of the supplied buffer
 
- Arg     | Type       | Description                                 | Default
----------|------------|---------------------------------------------|--------------
-**buff** | memoryview | the contents to write to the display RAM    | **REQUIRED**
-**x**    | int        | the x location to begin the write           | **REQUIRED**
-**y**    | int        | the y location to begin the write           | **REQUIRED**
-**w**    | int        | the width to write                          | **REQUIRED**
-**h**    | int        | the height to write                         | **REQUIRED**
+ Arg     | Type       | Description                             | Default
+---------|------------|-----------------------------------------|--------------
+**buff** | memoryview | contents to write to the display RAM    | **REQUIRED**
+**x**    | int        | x location to begin the write           | **REQUIRED**
+**y**    | int        | y location to begin the write           | **REQUIRED**
+**w**    | int        | width to write                          | **REQUIRED**
+**h**    | int        | height to write                         | **REQUIRED**
