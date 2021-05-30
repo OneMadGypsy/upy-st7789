@@ -52,16 +52,16 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.tear_en(`enable`)**
- Arg       | Type  | Description                                     | Default
------------|-------|-------------------------------------------------|--------------
-**enable** | bool  | enable/disable tearing pin                | True
+ Arg       | Type  | Description                                    | Default
+-----------|-------|------------------------------------------------|--------------
+**enable** | bool  | enable/disable tearing pin               | True
 
 <br />
 
 **.rotation(`rot`)**
- Arg       | Type  | Description                                    | Default
------------|-------|------------------------------------------------|--------------
-**rot**    | int   | rotation value (0, 90, 180, 270)          | 0
+ Arg       | Type  | Description                                   | Default
+-----------|-------|-----------------------------------------------|--------------
+**rot**    | int   | rotation value (0, 90, 180, 270)         | 0
 
 <br />
 
@@ -73,6 +73,6 @@ _To discus features, bugs or share your own project that utilize code in this re
 <br />
 
 **.backlight(`bright`)**
- Arg       | Type  | Description                                    | Default
------------|-------|------------------------------------------------|--------------
-**bright** | int   | brightness value (0 to 255)            | 255
+ Arg       | Type  | Description                               | Default
+-----------|-------|-------------------------------------------|--------------
+**bright** | int   | brightness value (0 to 255)         | 255
