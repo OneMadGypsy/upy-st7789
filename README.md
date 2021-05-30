@@ -20,7 +20,7 @@ _To discus features, bugs or share your own project that utilize code in this re
 
 
 **ST7789(`spi`, `dc`, `cs`, `rst`, `bl`, `te`, `baud`, `bright`, `rot`, `buff`)**
-> Main SDCard interface
+> Main ST7789 interface
 
  Arg       | Type       | Description                      | Default
 -----------|------------|----------------------------------|--------------
