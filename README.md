@@ -5,7 +5,7 @@ A simple st7789 driver for 240x240 pixel IPS displays, written in micropython. T
 
 ### Community:
 
-_To officially file a bug report or feature request you can use these templates:_   [bug report](https://github.com/OneMadGypsy/pupy-st7789/blob/main/.github/ISSUE_TEMPLATE/bug_report.md) | [feature request](https://github.com/OneMadGypsy/upy-st7789/blob/main/.github/ISSUE_TEMPLATE/feature_request.md)
+_To officially file a bug report or feature request you can use these templates:_   [bug report](https://github.com/OneMadGypsy/upy-st7789/blob/main/.github/ISSUE_TEMPLATE/bug_report.md) | [feature request](https://github.com/OneMadGypsy/upy-st7789/blob/main/.github/ISSUE_TEMPLATE/feature_request.md)
 
 _To discus features, bugs or share your own project that utilize code in this repo:_   [join the discussion](https://github.com/OneMadGypsy/upy-st7789/discussions/1)
 
